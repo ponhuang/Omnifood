@@ -80,7 +80,7 @@ body {
 
 .heading-secondary {
   font-size: 4.4rem;
-  line-height: 1.6;
+  line-height: 1.2;
   margin-bottom: 9.6rem;
 }
 
@@ -136,6 +136,7 @@ body {
   align-items: center;
 }
 
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -147,6 +148,9 @@ body {
   border-radius: 9px;
   padding: 1.6rem 3.2rem;
   transition: all 0.15s;
+
+  border: none;
+  cursor: pointer;
 }
 
 .btn--full:link,
@@ -173,6 +177,19 @@ body {
   box-shadow: 0 0 0 3px #fff;
 }
 
+.btn--form {
+  background-color: #45260a;
+  color: #fdf2e9;
+  padding: 1.2rem;
+  align-self: end;
+  transition: all 0.15s;
+}
+
+.btn--form:hover {
+  background-color: #fff;
+  color: #555;
+}
+
 .lists {
   list-style: none;
   display: flex;
@@ -190,6 +207,11 @@ body {
   display: flex;
   align-items: center;
   gap: 1.6rem;
+}
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(248, 216, 189, 0.6);
 }
 
 /* ******** */
