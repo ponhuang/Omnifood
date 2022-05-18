@@ -56,6 +56,7 @@ SPACING SYSTEM (px):
 
 html {
   font-size: 10px;
+  overflow-x: hidden;
 }
 
 body {
@@ -63,6 +64,7 @@ body {
   font-size: 400;
   line-height: 1;
   color: #555;
+  overflow-x: hidden;
 }
 
 /* ******** */
@@ -212,23 +214,6 @@ body {
 *:focus {
   outline: none;
   box-shadow: 0 0 0 0.8rem rgba(248, 216, 189, 0.6);
-}
-
-/* ******** */
-/* HEADER*/
-/* ******** */
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #fdf2e9;
-  height: 9.6rem;
-  padding: 0 4.8rem;
-}
-
-.logo {
-  height: 2.2rem;
 }
 
 /* ******** */

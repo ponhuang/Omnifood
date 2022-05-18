@@ -1,4 +1,23 @@
 /* ******** */
+/* HEADER*/
+/* ******** */
+
+.header {
+  position: relative;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fdf2e9;
+  height: 9.6rem;
+  padding: 0 4.8rem;
+}
+
+.logo {
+  height: 2.2rem;
+}
+
+/* ******** */
 /* NAVIGATION */
 /* ******** */
 
@@ -36,6 +55,26 @@
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
   background-color: #cf711f;
+}
+
+/* MOBILE NAV */
+
+.btn-mobile-nav {
+  background: none;
+  border: none;
+  cursor: pointer;
+
+  display: none;
+}
+
+.mobile-menu-icon {
+  width: 4.2rem;
+  height: 4.2rem;
+  color: #333;
+}
+
+.mobile-menu-icon[name="close-outline"] {
+  display: none;
 }
 
 /* ******** */
@@ -491,6 +530,7 @@ ion-icon {
     ),
     url(../img/eating.jpg);
   background-size: cover;
+  background-position: center;
 }
 
 .cta-text {
