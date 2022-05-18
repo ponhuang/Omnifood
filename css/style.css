@@ -5,7 +5,7 @@
 .main-nav-list {
   display: flex;
   align-items: center;
-  gap: 3.2rem;
+  gap: 4.8rem;
   list-style: none;
 }
 
@@ -471,8 +471,6 @@ ion-icon {
   overflow: hidden;
 
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 15%);
-
-  height: 50rem;
 }
 
 .cta-text-box {
